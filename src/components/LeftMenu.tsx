@@ -2,7 +2,7 @@ import {useState} from 'react'
 import { BiFilter } from "react-icons/bi";
 import { pp } from "../assets/chat"
 import Chats from './Chats';
-import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from '@/components/ui/select';
+// import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Input } from "@/components/ui/input"
 import { ThemeToggle } from './theme-toggle';
 import { Button } from "@/components/ui/button";
