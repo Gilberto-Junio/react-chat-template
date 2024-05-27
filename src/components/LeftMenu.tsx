@@ -31,7 +31,7 @@ function LeftMenu() {
                     <ThemeToggle/>
                 </div>
             </div>
-            <div className='flex justify-between items-center h-[60px] p-2'>
+            {/* <div className='flex justify-between items-center h-[60px] p-2'>
                 <Select>
                     <SelectTrigger className="w-full h-[35px]">
                         <SelectValue placeholder="Operação" />
@@ -47,7 +47,7 @@ function LeftMenu() {
                         </SelectGroup>
                     </SelectContent>
                 </Select>
-            </div>
+            </div> */}
             <div className='flex justify-between items-center h-[60px] p-2'>
                 <Input 
                     type="text"

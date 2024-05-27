@@ -26,7 +26,7 @@ function Chats({filter}:Props) {
                         contact={chat.contact}
                         msg={chat.msg}
                         time={chat.time}
-                        unreadMsgs={chat.unreadMsgs}
+                        unreadMsgs={chat.unreadMsgs ? chat.unreadMsgs : 0}
                         active={key === 0}
                     />
                 )
